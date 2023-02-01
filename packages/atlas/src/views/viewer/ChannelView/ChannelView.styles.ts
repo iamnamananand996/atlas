@@ -155,7 +155,7 @@ const geTabsContainerGridTemplate = ({ tab }: TabsContainerProps) => {
           'search search search' auto
           'sort sort filter' auto / 1fr 1fr;
         ${media.sm} {
-          grid-template: 1fr / 1fr 180px 99px;
+          grid-template: 1fr / auto 1fr 180px 99px;
         }
       `
   }

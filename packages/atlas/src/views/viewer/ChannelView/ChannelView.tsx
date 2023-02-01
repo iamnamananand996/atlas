@@ -314,6 +314,18 @@ export const ChannelView: FC = () => {
                     isSearching={isSearching}
                   />
                 )}
+
+                {currentTab === 'NFTs' && (
+                  <ChannelSearch
+                    isSearchInputOpen={isSearchInputOpen}
+                    searchQuery={searchQuery}
+                    setSearchQuery={setSearchQuery}
+                    setIsSearchingInputOpen={setIsSearchingInputOpen}
+                    setIsSearching={setIsSearching}
+                    submitSearch={submitSearch}
+                    isSearching={isSearching}
+                  />
+                )}
                 <StyledSelect
                   size="medium"
                   inlineLabel="Sort by"
